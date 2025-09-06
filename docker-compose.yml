@@ -1,0 +1,10 @@
+services:
+  java-study:
+    build: .
+    ports:
+      - "5005:5005"  # Remote debugging port
+      - "8080:8080"  # Application port (if needed)
+    volumes:
+      - ./src:/app/src:ro  # Mount source code for live debugging
+    stdin_open: true
+    tty: true
