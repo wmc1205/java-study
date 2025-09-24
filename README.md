@@ -42,23 +42,6 @@ src/main/java/org/thread/
 - **객체 락 (Object Lock)**: 세밀한 동기화 제어를 위한 별도 락 객체 사용
 - **성능 최적화**: 필요한 부분만 동기화하여 불필요한 대기 시간 최소화
 
-## 🔧 개발 환경
-
-- **Language**: Java
-- **Build Tool**: Gradle
-- **IDE**: IntelliJ IDEA (또는 Eclipse)
-- **Docker**: 원격 디버깅 지원
-
-## 🚀 실행 방법
-
-```bash
-# 프로젝트 빌드
-./gradlew build
-
-# 특정 클래스 실행 예시
-java -cp build/classes/java/main org.thread.Main
-java -cp build/classes/java/main org.thread.Syncronized.RunSyncronized
-```
 
 ## 📚 학습 참고서
 
