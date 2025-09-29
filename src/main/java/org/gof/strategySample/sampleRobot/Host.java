@@ -1,4 +1,4 @@
-package org.gof.strategy.sampleRobot;
+package org.gof.strategySample.sampleRobot;
 
 public class Host {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package org.gof.strategy;
+package org.gof.strategySample;
 
 public class StrategyContext {
     MainStrategy mainStrategy; //전략 인터페이스를 합성(Composition)

@@ -1,4 +1,4 @@
-package org.gof.strategy.sampleRobot;
+package org.gof.strategySample.sampleRobot;
 
 public class Japanese implements TranslateStrategy{
     public void translate(String robotName){

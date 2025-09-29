@@ -1,4 +1,4 @@
-package org.gof.strategy;
+package org.gof.strategySample;
 
 public class ConcreteStrategyA implements MainStrategy {
 

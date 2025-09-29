@@ -1,6 +1,4 @@
-package org.gof.strategy;
-
-import javax.naming.Context;
+package org.gof.strategySample;
 
 public class Client {
     public static void main(String[] args) {

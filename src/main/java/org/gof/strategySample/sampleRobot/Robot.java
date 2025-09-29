@@ -1,4 +1,4 @@
-package org.gof.strategy.sampleRobot;
+package org.gof.strategySample.sampleRobot;
 
 public class Robot {
     MoveStrategy moveStrategy;
