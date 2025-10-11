@@ -1,4 +1,4 @@
-# Java Study - 자바의 신
+# Java Study - 자바의 신(이상민), GoFDesignPatterns(백기선)
 
 Java 기초 및 고급 개념 학습을 위한 프로젝트입니다.
 
