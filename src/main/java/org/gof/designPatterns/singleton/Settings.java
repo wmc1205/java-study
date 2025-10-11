@@ -14,7 +14,7 @@ public class Settings implements Serializable {
     private Settings() {}
 
     /**
-     * 4.stattic inner class 생성
+     * 4.static inner class 생성
      */
     private static class SettingsHolder {
         //private static final Settings INSTANCE = new Settings();
@@ -37,7 +37,8 @@ public class Settings implements Serializable {
      }
      */
 
-    /** 3. doble checked locking 사용하기
+    /** 3. double checked locking 사용하기
+     * 게으른 초기화(lazy Initialization)
      * 만약 인스턴스 객체를 나중에 만들어도 괜찮다면? double checked locking 으로 효율적인 동기화 블럭을 만들 수 있다.
      * 장점 1) 멀티 쓰레드 환경에서 syncronized 보다 더 빠른 성능으로 쓰레드에 안전하게 인스턴스를 생성할 수 있다.
      * 장점 2) 필요한 시점에 인스턴스를 생성할 수 있다.
