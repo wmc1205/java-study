@@ -1,7 +1,7 @@
 package org.gof.designPatterns.factoryMethod;
 
 // 구현 class
-// Creator
+// ConcreteCreator
 public class WhiteShipFactory implements ShipFactory {
     @Override
     public Ship createShip() {

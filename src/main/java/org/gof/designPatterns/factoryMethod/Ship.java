@@ -1,5 +1,8 @@
 package org.gof.designPatterns.factoryMethod;
 
+import org.gof.designPatterns.AbstractFactory.Anchor;
+import org.gof.designPatterns.AbstractFactory.Wheel;
+
 // Product
 public class Ship {
     // open closed principle
@@ -8,6 +11,9 @@ public class Ship {
     private String name;
     private String color;
     private String logo;
+
+    private Anchor anchor;
+    private Wheel wheel;
 
     public String getName() {
         return name;
@@ -27,5 +33,17 @@ public class Ship {
     }
     public void setLogo(String logo) {
         this.logo = logo;
+    }
+    public Anchor getAnchor() {
+        return anchor;
+    }
+    public void setAnchor(Anchor anchor) {
+        this.anchor = anchor;
+    }
+    public Wheel getWheel() {
+        return wheel;
+    }
+    public void setWheel(Wheel wheel) {
+        this.wheel = wheel;
     }
 }

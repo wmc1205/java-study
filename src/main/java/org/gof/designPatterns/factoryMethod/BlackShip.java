@@ -1,6 +1,6 @@
 package org.gof.designPatterns.factoryMethod;
 
-// Product
+// ConcreteProduct
 public class BlackShip extends Ship {
     public BlackShip() {
         setName("BlackShip");
